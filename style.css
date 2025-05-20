@@ -14,6 +14,7 @@
     text-decoration: none;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all;
 }
 
 .html{
@@ -21,7 +22,7 @@
     overflow-x: hidden;
 }
 
-.body{
+body{
     background-color: var(--bg-color);
 }
 
@@ -38,16 +39,16 @@
     /*z-index: 1000;*/
 }
 
-.header.logo img{
+.header .logo img{
     height: 6rem;
-    border-radius: 50%;
+    width: 6rem;
+    border-radius: 90%;
 }
 
 .header .navbar a{
     color: #fff;
     font-size: 1.3rem;
-    margin: 0 1rem;
-    transition: all 0.5s ease-in;
+    margin: 0 3rem;
 }
 
 .header .navbar a:hover{
