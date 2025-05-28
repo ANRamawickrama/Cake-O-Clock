@@ -1,0 +1,161 @@
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #ffb6c1;
+  padding: 1rem 2rem;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+/* Hero section */
+.hero {
+  padding: 4rem 2rem;
+  background: #ffe4e1;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Gallery section */
+.gallery {
+  padding: 2rem;
+  text-align: center;
+}
+
+.gallery h2 {
+  color: #d63384;
+  margin-bottom: 1rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  justify-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  width: 200px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+
+
+/* Contact form */
+.contact {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  padding: 10px;
+  background-color: rgb(76, 151, 248);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #7956ca;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.about {
+  padding: 2rem;
+  background-color: #fff0f5;
+  text-align: center;
+}
+
+.about h2 {
+  color: #9d33d6;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 1rem auto;
+  color: #444;
+}
+
+.header {
+  background-color: #255a89;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
