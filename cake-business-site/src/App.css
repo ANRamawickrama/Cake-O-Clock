@@ -11,9 +11,8 @@ body {
   line-height: 1.6;
 }
 
-/* Header styles */
 header {
-  background-color: #ffb6c1;
+  background-color: #2e638e;
   padding: 1rem 2rem;
   color: white;
   text-align: center;
@@ -23,7 +22,6 @@ header h1 {
   font-size: 2rem;
 }
 
-/* Hero section */
 .hero {
   padding: 4rem 2rem;
   background: #ffe4e1;
@@ -39,14 +37,13 @@ header h1 {
   font-size: 1.2rem;
 }
 
-/* Gallery section */
 .gallery {
-  padding: 2rem;
+  padding: 4rem;
   text-align: center;
 }
 
 .gallery h2 {
-  color: #d63384;
+  color: #ab55c3;
   margin-bottom: 1rem;
 }
 
@@ -77,8 +74,6 @@ header h1 {
 }
 
 
-
-/* Contact form */
 .contact {
   background-color: #f5f5f5;
   padding: 2rem;
@@ -113,7 +108,6 @@ header h1 {
   background-color: #7956ca;
 }
 
-/* Footer */
 footer {
   background-color: #222;
   color: #fff;
@@ -141,7 +135,6 @@ footer {
 }
 
 .header {
-  background-color: #255a89;
   color: white;
   padding: 20px;
   text-align: center;
@@ -150,12 +143,26 @@ footer {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: relative;
+  height: 50px; 
+}
+
+.navbar-left {
+  flex: 0 0 auto;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .logo {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
+  height: 90px; 
+  width: 90px;
 }

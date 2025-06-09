@@ -3,10 +3,14 @@ import React from 'react';
 function Header() {
   return (
     <header className="header">
-      <nav className="navbar">
-        <img src="/images/logo.png" alt="Cake'O Clock Logo" className="logo" />
-        <h1>Cake'O Clock</h1>
-      </nav>
+      <nav class="navbar">
+        <div class="navbar-left">
+          <img src="images/logo.png" alt="Logo" class="logo" />
+        </div>
+        <div class="navbar-center">
+          <h1 class="title">Cake'O Clock</h1>
+        </div>
+    </nav>
     </header>
   );
 }
